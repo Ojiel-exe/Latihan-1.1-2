@@ -1,0 +1,33 @@
+/**
+ * @owner Aditya Satrio Priyandi
+ * @Class 2D SISTEM INFORMASI
+ * @NIM 11200930000100
+ */
+package Hp;
+public class Handphone {
+    String hidupkan;
+    String lakukanPanggilan;
+    String kirimSMS;
+    String matikan;
+
+    void printHandphone(){
+        System.out.println("Handphone hidup" + hidupkan);
+        System.out.println("Kring, kring, kring" + lakukanPanggilan);
+        System.out.println("Dung, dung " + kirimSMS );
+        System.out.println("Handphone mati" + matikan);           
+    } 
+}
+
+package Hp;
+
+public class HandphoneBeraksi {
+    public static void main(String[] args){
+	  	Handphone handphoneku = new Handphone();
+
+	 	handphoneku.hidupkan = "...";
+	  	handphoneku.lakukanPanggilan = "... panggilan dilakukan";
+	  	handphoneku.kirimSMS = "...SMS berhasil Terkirim";
+                handphoneku.matikan = "...";
+                handphoneku.printHandphone();               
+    }
+}

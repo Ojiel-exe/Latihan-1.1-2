@@ -1,0 +1,28 @@
+/*
+ @owner ADITYA SATRIO PRIYANDI
+ @class 2D SISTEM INFORMASI
+ @ 11200930000100
+ */
+package textbasedapplication;
+
+public class Mobil1 {
+    String warna;
+    int tahunProduksi;
+
+    void  printMobil(){
+        System.out.println("Warna: " + warna);
+        System.out.println("Tahun: " + tahunProduksi);
+    }
+}
+
+package textbasedapplication;
+
+public class Mobil2Beraksi {
+    public static void main(String[] args){
+	  	Mobil2 mobilku = new Mobil1();
+
+	 	mobilku.warna = "Stripes";
+	  	mobilku.tahunProduksi = 2019;
+	  	mobilku.printMobil();
+	 }
+}

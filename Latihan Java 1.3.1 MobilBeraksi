@@ -1,0 +1,36 @@
+
+/**
+ * @Nama  : Aditya Satrio Priyandi
+ * @Nim   : 11200930000100
+ * @Kelas : 2D
+ */
+
+package textbasedapplication;
+
+public class Mobil {
+    String warna;
+    int tahunProduksi;
+}
+
+-----------------------------------------------------------------------------------
+
+
+/**
+ * @Nama  : Aditya Satrio Priyandi
+ * @Nim   : 11200930000100
+ * @Kelas : 2D
+ */
+
+package textbasedapplication;
+
+public class MobilBeraksi {
+    public static void main(String[] args) {
+        Mobil mobilAditya = new Mobil();
+        
+        mobilAditya.warna = "Stripes";
+        mobilAditya.tahunProduksi = 2019;
+        
+        System.out.println("Warna : " + mobilAditya.warna);
+        System.out.println("Tahun Produksi : " + mobilAditya.tahunProduksi );
+    }
+}
